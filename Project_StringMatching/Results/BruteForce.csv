@@ -1,0 +1,73 @@
+Memory Usage (bytes), for pattern, REMOVE ILLEGAL UNIT is: 147848
+
+
+---------------------------------------------------------------------------------
+Comparing running times for different Input sizes
+
+
+Algorithm, Input Length, Elapsed Time (ms)
+bruteforce, 1000, 6
+
+
+bruteforce, 10000, 92
+
+
+bruteforce, 50000, 198
+
+
+bruteforce, 1000000, 3135
+
+
+bruteforce, 2000000, 5944
+
+
+bruteforce, 2500000, 7442
+
+
+bruteforce, 3000000, 8923
+
+
+
+
+---------------------------------------------------------------------------------
+Comparing running times for different Pattern Lengths, Input size 50000
+
+
+Algorithm, Pattern Length, Elapsed Time (ms)
+bruteforce, 4, 157
+
+
+bruteforce, 19, 149
+
+
+bruteforce, 50, 118
+
+
+bruteforce, 70, 101
+
+
+bruteforce, 80, 90
+
+
+bruteforce, 90, 87
+
+
+
+
+---------------------------------------------------------------------------------
+Comparing running times for searching alphabet strings with little cardinality, Input size 50000
+
+
+Algorithm, Elapsed Time (ms)
+rabinkarp, 94
+
+
+bruteforce, 182
+
+
+kmp, 60
+
+
+boyermoore, 88
+
+
